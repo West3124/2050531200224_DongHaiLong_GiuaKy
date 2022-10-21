@@ -34,9 +34,9 @@ public class SignInActivity extends AppCompatActivity {
 
                 if (username.equals("hailong") && password.equals("1234")){
                     Toast.makeText(SignInActivity.this,"Đăng nhập thành công", Toast.LENGTH_SHORT).show();
-                    Intent home = new Intent(SignInActivity.this, HomeActivity.class);
-                    home.putExtra("username", username.toString());
-                    SignInActivity.this.startActivity(home);
+                    Intent listview = new Intent(SignInActivity.this, ListViewActivity.class);
+                    listview.putExtra("username", username.toString());
+                    SignInActivity.this.startActivity(listview);
                 } else {
                     Toast.makeText(SignInActivity.this,"Lỗi đăng nhập!", Toast.LENGTH_SHORT).show();
                 }

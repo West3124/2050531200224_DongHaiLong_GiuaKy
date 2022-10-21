@@ -16,13 +16,13 @@ public class Adapter extends BaseAdapter {
     private Activity activity;
     private String[] items;
     private String[] classes;
-    private String[] images;
+    private String[] shortDescription;
 
-    public Adapter(Activity activity, String[] items, String[] classes, String[] images) {
+    public Adapter(Activity activity, String[] items, String[] classes, String[] shortDescription) {
         this.activity = activity;
         this.items = items;
         this.classes = classes;
-        this.images = images;
+        this.shortDescription = shortDescription;
     }
 
     @Override
@@ -49,11 +49,11 @@ public class Adapter extends BaseAdapter {
     }
 
     public int getCountImages() {
-        return images.length;
+        return shortDescription.length;
     }
 
     public Object getImage(int i) {
-        return images[i];
+        return shortDescription[i];
     }
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {

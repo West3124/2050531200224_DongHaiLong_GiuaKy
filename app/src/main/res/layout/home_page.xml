@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/home_background">
 
     <RelativeLayout
+        android:id="@+id/welcome_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -27,6 +28,8 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_below="@id/welcome_layout"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:gravity="center">
@@ -34,11 +37,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"/>
+            android:text="SCP Foundation"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/button_layout"
+        android:layout_below="@id/title_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
@@ -94,4 +102,13 @@
 
     </RelativeLayout>
 
-</LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/teal_200"
+        app:itemIconTint="@color/custom_color_bottom_nav"
+        app:itemTextColor="@color/custom_color_bottom_nav"
+        app:menu="@menu/bottom_nav_menu" />
+</RelativeLayout>

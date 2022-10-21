@@ -24,10 +24,10 @@ public class SignUpActivity extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent home = new Intent(SignUpActivity.this, HomeActivity.class);
+                Intent listview = new Intent(SignUpActivity.this, ListViewActivity.class);
                 EditText username = (EditText) findViewById(R.id.edtUsername);
-                home.putExtra("username", username.getText().toString().trim());
-                SignUpActivity.this.startActivity(home);
+                listview.putExtra("username", username.getText().toString().trim());
+                SignUpActivity.this.startActivity(listview);
             }
         });
 

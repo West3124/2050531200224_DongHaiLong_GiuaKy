@@ -22,6 +22,7 @@
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout-w936dp/activity_sign_in.xml" value="0.5" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/activity_sign_in.xml" value="0.3482789855072464" />
+        <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/bottom_nav_menu.xml" value="0.358695652173913" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/detail.xml" value="0.358695652173913" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/home_page.xml" value="0.358695652173913" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/item.xml" value="0.29743589743589743" />
@@ -30,6 +31,7 @@
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/sign_in_activity.xml" value="0.358695652173913" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/sign_in_main.xml" value="0.223731884057971" />
         <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/layout/sign_up_activity.xml" value="0.33" />
+        <entry key="..\:/homework/AndroidStudio/GiuaKi/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
       </map>
     </option>
   </component>
